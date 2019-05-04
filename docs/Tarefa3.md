@@ -212,6 +212,28 @@ Deverão ser adicionados os seguintes elementos de interface ao projeto:
 1. Um [Toolbar](https://material.angular.io/components/toolbar/overview), tendo por fundo a cor primária do tema, contendo a identificação do aplicativo (**Fatec ToAki**) e um botão com o ícone de três linhas horizontais ou três pontos verticais para abrir o menu lateral;
 2. Um [Sidenav](https://material.angular.io/components/sidenav/overview) (menu lateral), contendo os itens de menu do aplicativo. Os itens de menu devem ser deduzidos de acordo com o documento final de requisitos disponível no AVA.
 
+### Procedimento padrão para *commit* no *branch* master
+```bash
+git add .
+git commit -m "Mensagem de commit"
+git push origin master
+```
+
 Após implementar esses elementos de interface, **um dos membros do grupo** deverá comitar as mudanças para o repositório do grupo.
+
+## 10. Geolocalização
+
+**Um dos membros do grupo** (que não o que executou o passo anterior) deverá acrescentar um novo componente ao projeto (`ng generate component <nome-do-componente>`). Nesse componente, deverá ser colocada a lógica que detecta se o usuário está na Fatec Franca; essa lógica foi implementada em [outro repositório](https://github.com/fgcintra/6not-2019-1-AngularPwa) pelo professor.
+
+Utilize os conhecimentos de IHC para criar uma nesse componente interface/comunicação visual (texto, imagens ou mesmo animações) para explicar ao usuário que ele precisa conceder ao aplicativo as permissões de localização e que, sem isso, não será possível prosseguir.
+
+Após implementar e testar o componente, esse membro do grupo deverá comitar as mudanças para o repositório do grupo.
+
+### Procedimento padrão para *commit* no *branch* master
+```bash
+git add .
+git commit -m "Mensagem de commit"
+git push origin master
+```
 
 > Novas instruções serão acrescentadas no decurso das próximas aulas. Durante a tarefa, todos os colaboradores deverão comitar seu código para o repositório do grupo. No final da tarefa, o dono do repositório fará um `pull request` para o repositório do professor.
