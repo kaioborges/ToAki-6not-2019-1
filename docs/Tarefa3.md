@@ -236,4 +236,32 @@ git commit -m "Mensagem de commit"
 git push origin master
 ```
 
+## 11. *Mockup* de API
+
+Como não temos um *back-end*, criaremos na classe `EventoService` (`src/app/services/evento.service.ts`) dados e métodos simulando as chamadas de uma API. 
+
+Para isso, **um terceiro membro do grupo** (caso haja; senão, um dos anteriores) implementará, nessa classe, um vetor de objetos JSON, com, pelo menos, **dois objetos**. Cada um dos objetos deverá ter os seguintes atributos:
+
+* código do evento (alfanumérico)
+* nome do evento
+* código da oficina
+* nome da oficina
+* local da oficina (sala, laboratório, etc.)
+* nome do instrutor da oficina
+* data/hora do início da oficina
+* data/hora do término da oficina
+* intervalo (em minutos) *antes* do início da oficina, durante o qual já é possível registrar presença
+* intervalo (em minutos) *depois* do término da oficina, durante o qual ainda é possível registrar presença
+
+Na classe `EventoService`, deverá ser implementado um método público que receba o código da oficina, localize o JSON correspondente no vetor e o retorne como resultado.
+
+Após implementar e testar a classe do serviço, esse membro do grupo deverá comitar as mudanças para o repositório do grupo.
+
+### Procedimento padrão para *commit* no *branch* master
+```bash
+git add .
+git commit -m "Mensagem de commit"
+git push origin master
+```
+
 > Novas instruções serão acrescentadas no decurso das próximas aulas. Durante a tarefa, todos os colaboradores deverão comitar seu código para o repositório do grupo. No final da tarefa, o dono do repositório fará um `pull request` para o repositório do professor.
