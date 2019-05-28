@@ -264,4 +264,52 @@ git commit -m "Mensagem de commit"
 git push origin master
 ```
 
-> Novas instruções serão acrescentadas no decurso das próximas aulas. Durante a tarefa, todos os colaboradores deverão comitar seu código para o repositório do grupo. No final da tarefa, o dono do repositório fará um `pull request` para o repositório do professor.
+# 12. Gerando um QR Code para teste
+
+Utilize o [QR Code Generator](https://br.qr-code-generator.com/) para gerar uma imagem QR Code de teste. Utilize o modo "texto" do gerador e insira um JSON com a seguinte estrutura:
+
+```json
+{
+  "cod_oficina": XYZ, 
+  "hash_validacao": "2a36debcb994dde3442a2c4f8876e328a645cfd2865665689580a74b94089bde" 
+}
+```
+
+Substitua o `XYZ` do `cod_oficina` por um código de oficina existente no seu *mockup* de API. **NÃO MEXA NO HASH DE VALIDAÇÃO!**
+
+Salve a imagem do QR Code gerado na pasta raiz da aplicação para que seja comitada e depois testada pelo professor durante a correção da tarefa.
+
+# 13. Lendo o QR Code
+
+**O quarto membro do grupo** (caso haja; senão, um dos anteriores) implementará na aplicação a API de câmera, conforme exemplificado no [repositório do professor](https://github.com/fgcintra/6not-2019-1-AngularPwa).
+
+A aplicação deverá ser capaz de:
+
+1. ler o QR Code de teste gerado na etapa anterior e decodificar o JSON lido;
+2. localizar no *mockup* de API a oficina a partir do código lido e exibir as informações do evento e da oficina na página da aplicação;
+3. determinar se a leitura foi feita nas dependências da Fatec e se essa leitura foi feita durante a janela temporal configurada no cadastro da oficina, validando ou não a leitura. 
+
+Ao final, o membro do grupo deverá comitar o seu trabalho no repositório do grupo.
+
+### Procedimento padrão para *commit* no *branch* master
+```bash
+git add .
+git commit -m "Mensagem de commit"
+git push origin master
+```
+
+# 14. Testando a aplicação em produção
+
+O **proprietário do repositório do grupo** deverá realizar a **Etapa 7** e publicar a aplicação no GitHub Pages.
+
+# 15. Fazendo o *pull request*
+
+Finalmente, o **proprietário do repositório do grupo** deverá fazer o *pull request* para o repositório do professor. Para tanto:
+1. Acessar o repositório do grupo do GitHub;
+2. Na aba `Pull requests` (2ª aba) e clicar sobre o botão verde `New pull request`.
+
+Assim, todas as modificações feitas por cada um dos membros do grupo ficarão visíveis para a correção do professor.
+
+# 16. PRAZO FINAL DE ENTREGA DESTA TAREFA COMPLETA
+
+Dia **18/06** (terça-feira), até as 20h40.
