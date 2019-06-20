@@ -8,10 +8,13 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
 import { MaterialModule } from './material/material.module';
+import { Globals } from './globals';
+import { GeoLocComponent } from './geo-loc/geo-loc.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GeoLocComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +23,7 @@ import { MaterialModule } from './material/material.module';
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     MaterialModule
   ],
-  providers: [],
+  providers: [Globals],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
