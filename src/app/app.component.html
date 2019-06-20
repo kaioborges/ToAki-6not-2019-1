@@ -1,0 +1,28 @@
+
+<style>
+  .mat-list-item:hover {
+    background-color: rgb(0, 0, 0, .1);
+    cursor: pointer;
+  }
+</style>
+
+<mat-drawer-container style="height: 100%;">
+  <mat-drawer #drawer style="width: 300px;">
+    <mat-list>
+      <mat-list-item> Início </mat-list-item>
+      <mat-list-item> Registrar Presença </mat-list-item>
+    </mat-list>
+  </mat-drawer>
+
+  <mat-drawer-content>
+
+    <mat-toolbar color="primary">
+      <button mat-icon-button (click)="drawer.toggle()"><mat-icon class="mat-icon">more_vert</mat-icon> </button>
+      <span>&nbsp; {{title}}</span>
+    </mat-toolbar>
+
+    <!-- <app-geo-loc></app-geo-loc> -->
+    <!-- <app-leitor-qr-code></app-leitor-qr-code> -->
+
+  </mat-drawer-content>
+</mat-drawer-container>
