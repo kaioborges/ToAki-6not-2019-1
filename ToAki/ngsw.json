@@ -1,0 +1,82 @@
+{
+  "configVersion": 1,
+  "timestamp": 1560994589386,
+  "index": "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/es2015-polyfills.1e04665e16f944715fd2.js",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/favicon.ico",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/index.html",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/main.fa3a1ba8c1e3c2b65e26.js",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/polyfills.8bbb231b43165d65d357.js",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/runtime.26209474bfa8dc87a77c.js",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/styles.bbdf69b8992b71fd9b6e.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/MaterialIcons-Regular.012cf6a10129e2275d79.woff",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/MaterialIcons-Regular.570eb83859dc23dd0eec.woff2",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/MaterialIcons-Regular.a37b0c01c0baf1888ca8.ttf",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/MaterialIcons-Regular.e79bfd88537def476913.eot",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-128x128.png",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-144x144.png",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-152x152.png",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-192x192.png",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-384x384.png",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-512x512.png",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-72x72.png",
+        "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/MaterialIcons-Regular.012cf6a10129e2275d79.woff": "c6c953c2ccb2ca9abb21db8dbf473b5a435f0082",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/MaterialIcons-Regular.570eb83859dc23dd0eec.woff2": "09963592e8c953cc7e14e3fb0a5b05d5042e8435",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/MaterialIcons-Regular.a37b0c01c0baf1888ca8.ttf": "fc05de31234e0090f7ddc28ce1b23af4026cb1da",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/MaterialIcons-Regular.e79bfd88537def476913.eot": "26fb8cecb5512223277b4d290a24492a0f09ede1",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/es2015-polyfills.1e04665e16f944715fd2.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/index.html": "da0cc7a51143ba28e8b02ab52bb1f1004796aada",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/main.fa3a1ba8c1e3c2b65e26.js": "45f8bbefa86b2e54c3d013550ac4cdda02883496",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://kaioborges.github.io/ToAki-6not-2019-1/ToAki/styles.bbdf69b8992b71fd9b6e.css": "a27702aae3eaf9cdbe9c226726845567fe5cfeb9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
