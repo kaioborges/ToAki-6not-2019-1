@@ -1,0 +1,101 @@
+
+
+<mat-list *ngIf="leituraFeita">
+  <mat-list-item>Leitura feita na fatec: {{this.globals.estaNaFatec}} </mat-list-item>
+  <mat-list-item>Leitura feita durante a janela temporal: {{this.globals.horarioCorreto}} </mat-list-item>
+</mat-list>
+
+<mat-list *ngIf="oficina">
+  <mat-list-item> Código do evento: {{this.oficina.codigo_evento}} </mat-list-item>
+  <mat-list-item> Nome do evento: {{this.oficina.nome_evento}} </mat-list-item>
+  <mat-list-item> Código da Oficina: {{this.oficina.codigo_oficina}} </mat-list-item>
+  <mat-list-item> Nome da Oficina: {{this.oficina.nome_oficina}} </mat-list-item>
+  <mat-list-item> Local da Oficina: {{this.oficina.local_oficina}} </mat-list-item>
+  <mat-list-item> Instrutor da Oficina: {{this.oficina.nome_instrutor_oficina}} </mat-list-item>
+  <mat-list-item> Data de Início da Oficina: {{this.oficina.data_inicio_oficina}} </mat-list-item>
+  <mat-list-item> Data de Término da Oficina: {{this.oficina.data_termino_oficina}} </mat-list-item>
+  <mat-list-item> Intervalo Inícial da Oficina: {{this.oficina.intervalo_inicio_oficina}} </mat-list-item>
+  <mat-list-item> Intervalo Final da Oficina: {{this.oficina.intervalo_final_oficina}} </mat-list-item>
+</mat-list>
+
+<zxing-scanner #scanner [(device)]="currentDevice" (scanSuccess)="handleQrCodeResult($event)" [formats]="['EAN_13', 'CODE_128', 'QR_CODE']" [tryHarder]="true"></zxing-scanner>
+
+<!-- <div class="scanner-shell" [hidden]="!hasDevices"> -->
+
+    <!-- <header *ngIf="!currentDevice">
+      <mat-form-field>
+        <mat-label>Selecione a câmera</mat-label>
+        <select matNativeControl (change)="onDeviceSelectChange($event.target.value)">
+          <option value="" [selected]="!currentDevice">(Nenhuma câmera selecionada)</option>
+          <option *ngFor="let device of availableDevices" [value]="device.deviceId" [selected]="currentDevice && device.deviceId === currentDevice.deviceId">{{device.label}}</option>
+        </select>
+      </mat-form-field>
+    </header> -->
+  
+    
+  
+    <!-- <section class="results" *ngIf="qrResultString">
+      <small>Resultado</small>
+      <strong>{{ qrResultString }}</strong>
+    </section> -->
+  
+  <!-- </div> -->
+<!--   
+  <ng-container *ngIf="hasPermission === undefined">
+  
+    <h2>Aguardando permissões</h2>
+  
+    <blockquote>
+      Se o seu dispositivo não tem câmera, nenhuma permissão será solicitada.
+    </blockquote>
+  
+  </ng-container>
+  
+  <ng-container *ngIf="hasPermission === false">
+  
+    <h2>Você recusou a permissão de câmera, não podemos ler nada sem isso. 😪</h2>
+  
+  </ng-container>
+  
+  <ng-container *ngIf="hasDevices === undefined">
+  
+    <h2>Não foi possível procurar por uma câmera.</h2>
+  
+    <blockquote>
+      Isso pode ter sido causado por algum erro de segurança
+    </blockquote>
+  
+  </ng-container>
+  
+  <ng-container *ngIf="hasDevices === false">
+  
+    <h2>Nenhuma câmera encontrada</h2>
+  
+    <blockquote>
+      Parece que seu dispositivo não tem nenhuma camera
+    </blockquote>
+  
+  </ng-container>
+  
+  <footer>
+    <table class="table-scanner-state">
+      <thead>
+        <tr>
+          <th>Estado</th>
+          <th>Propridade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ stateToEmoji(hasDevices) }}</td>
+          <td>Câmeras</td>
+        </tr>
+        <tr>
+          <td>{{ stateToEmoji(hasPermission) }}</td>
+          <td>Permissões</td>
+        </tr>
+  </tbody>
+    </table>
+    <p class="ng-version">Versão do Angular: {{ ngVersion }}</p>
+  </footer>  
+   -->

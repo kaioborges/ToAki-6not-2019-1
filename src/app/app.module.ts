@@ -10,18 +10,22 @@ import { environment } from '../environments/environment';
 import { MaterialModule } from './material/material.module';
 import { Globals } from './globals';
 import { GeoLocComponent } from './geo-loc/geo-loc.component';
+import { LeitorQrCodeComponent } from './leitor-qr-code/leitor-qr-code.component';
+import { ZXingScannerModule } from '@zxing/ngx-scanner';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GeoLocComponent
+    GeoLocComponent,
+    LeitorQrCodeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
-    MaterialModule
+    MaterialModule,
+    ZXingScannerModule
   ],
   providers: [Globals],
   bootstrap: [AppComponent]
